@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+::selection{
+    background-color: #2d4068;
+    color: white;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.progress-container {
+    width: 100%;
+    height: 3px;
+    background: rgb(20,33,61);
+  } 
+ 
+  /* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 3px;
+    background: #fca311;
+    width: 0%;
+  } 
